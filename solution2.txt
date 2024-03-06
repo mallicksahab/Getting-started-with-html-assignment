@@ -1,0 +1,25 @@
+It is use serve as non -rendered text that provides information about the code for human readers 
+They are also very useful for documenting your code , explaining it purpose , making notes, or temporarily disabling parts of the code without deleting them.
+comments are ignored by browers and do not affect the render webpage.
+for eg:-
+<!Doctype html>
+<html lang ="en">
+<head>
+<meta charset ="UTF-8">
+<mets name="viewport"content ="width=device-width,intial -scale=1.0">
+<title>comments Example</title>
+</head>
+<body>
+<!--this is a comment explaining the purpose of the following headin-->
+<h1>welcome tomy website</h1>
+<!--uncomment the line below to temporarily remove the paragraph-->
+<!--<p>This paragraph is currently hidden</p>
+<!--Note:The above line is commentred out and will not be displayed -->
+<!--Todo :Add more content here later-->
+</body>
+</html>
+The first comment provides an explanation a?out the purpose of the heading>
+The second comment is used to disa?le the paragraph temporarily. If you remove the <!-- and --> around 
+the <p> tag, the paragraph will ?e displayed>
+The third comment includes the "TODO" la?el, indicating that there's a task to ?e done later, such as adding 
+more content to the we?page.
